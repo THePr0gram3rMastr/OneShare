@@ -27,7 +27,7 @@
     -->
     <!-- for Android -->
     <feature name="SocialSharing">
-        <param name="android-package" value="nl.xservices.plugins.SocialSharing" />
+        <param name="android-package" value="plugins.SocialSharing" />
     </feature>
     <!--
         If you do not want any permissions to be added to your app, add the
@@ -79,13 +79,7 @@
     <gap:splash src="res/screen/android/screen-mdpi-portrait.png"  gap:platform="android" gap:density="mdpi" />
     <gap:splash src="res/screen/android/screen-hdpi-portrait.png"  gap:platform="android" gap:density="hdpi" />
     <gap:splash src="res/screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" />
-    <gap:splash src="res/screen/blackberry/screen-225.png"         gap:platform="blackberry" />
-    <gap:splash src="res/screen/ios/screen-iphone-portrait.png"    gap:platform="ios"     width="320" height="480" />
-    <gap:splash src="res/screen/ios/screen-iphone-portrait-2x.png" gap:platform="ios"     width="640" height="960" />
-    <gap:splash src="res/screen/ios/screen-ipad-portrait.png"      gap:platform="ios"     width="768" height="1024" />
-    <gap:splash src="res/screen/ios/screen-ipad-landscape.png"     gap:platform="ios"     width="1024" height="768" />
-    <gap:splash src="res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone" />
-
+   
     <!--
         Define access to external domains.
 
