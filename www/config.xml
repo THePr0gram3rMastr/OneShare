@@ -26,8 +26,6 @@
     </feature>
     <gap:plugin name="nl.x-services.plugins.socialsharing" />
     <plugin name="Camera" value="org.apache.cordova.CameraLauncher" />
-    
-    <!--
      
     
     <!-- Customize your app and platform with the preference element. -->
