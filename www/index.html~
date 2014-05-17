@@ -36,11 +36,9 @@
 
 	<script type="text/javascript">
 		stLight.options({publisher: "sjsv9bh92vhynkj72saz4ud5", doNotHash: false, doNotCopy: false, hashAddressBar: false});
-
-
-		function sendTweet() {
+		function sentTweet() {
 			var extras = {};
-			extras[WebIntent.EXTRA_TEXT] = "Put the text in here";
+			extras[WebIntent.EXTRA_TEXT] = "test";
 			window.plugins.webintent.startActivity({
 				action: WebIntent.ACTION_SEND,
                                 type: "application/twitter", 

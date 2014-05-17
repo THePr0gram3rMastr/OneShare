@@ -1,5 +1,4 @@
 function SocialSharing() {
-
 }
 
 SocialSharing.prototype.available = function (callback) {
@@ -44,10 +43,5 @@ SocialSharing.install = function () {
   window.plugins.socialsharing = new SocialSharing();
   return window.plugins.socialsharing;
 };
-if (typeof cordova==='undefined') {
-   console.log("No Cordova - spoofing!!");
-   var cordova = [];
-   cordova.exec = function() {};
-   cordova.addConstructor=function() {};
-}
+
 cordova.addConstructor(SocialSharing.install);
